@@ -1,0 +1,48 @@
+header, footer {
+    background-color: #333333;
+    margin: -10px;
+    padding: 1px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+body {
+        overflow-x: hidden
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px #333333;
+}
+
+section {
+    text-align: left;
+    padding-bottom: 3px;
+    margin-bottom: 30px;
+    background-color: #dddd;
+}
+
+p {
+    padding-left: 15px;
+}
+
+ul {
+    margin-left: -15px;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+}

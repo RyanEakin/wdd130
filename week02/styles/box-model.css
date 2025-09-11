@@ -1,15 +1,35 @@
+body {
+    background-color: #224477;
+    /*this actually covers the problem with the "white border" by setting the background to one color, not just a block.
+    and either the white block was intentional or it was not and they didn't see it because the site is also white for the instructions*/
+}
+
 .callout {
-	
+	max-width: 700px;
+    margin: 10px;
+    border: 1px solid #224477;
+    padding: 15px;
+    color: white;
 }
 
 .callout img {
-	
+	float: right;
+    margin: 0px 0px 10px 15px;
+    border: 1px solid black;
+    padding: 3px;
+    background-color:grey;
+    width: 115px;
+    height: auto;
 }
 
 blockquote {
-	
+	margin: 0;
 }
 
 cite {
-	
+	display: block;
+    border-top: 1px dotted white;
+    padding-top: 3px;
+    text-align: right;
+    font-size: smaller;
 }
