@@ -1,9 +1,13 @@
+:root {
+    --heading-text-color: white;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
 }
 nav a {
-    color: white;
+    color: var(--heading-text-color);
     display: block;
     padding: 20px;
 }
