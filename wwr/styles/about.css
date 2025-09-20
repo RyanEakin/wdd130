@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Crow-Scratch';
+    src: url('../fonts/October\ Crow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MidnightMin';
+    src: url('../fonts/MidnightMinutes_DEMO.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: #d19705;
+    --secondary-color: rgb(206, 206, 206);
+    --accent1-color: rgb(192, 10, 192);
+    --accent2-color: green;
+    --heading-font: Crow-Scratch;
+    --body-font: MidnightMin;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(9, 9, 10);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+header img {
+    background-color: var(--primary-color);
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header , main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: Crow-Scratch;
+    color: var(--primary-color);
+}
+
+h1 {
+    position: absolute;
+    top: 250px;
+    width:100%;
+    padding: 16px;
+    text-align: center;
+    opacity: .8;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+article {
+    position: absolute;
+}
+
+/*Class Selectors*/
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position:relative;
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
