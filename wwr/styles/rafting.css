@@ -69,10 +69,15 @@ article {
 .socialmedia a {
     text-decoration: none;
 }
+.socialmedia img {
+    float: right;
+    padding:16px;
+    max-width: 50px;
+    max-height: fit-content;
+}
 
 .hero {
     position:relative;
-
 }
 
 .hero img {
