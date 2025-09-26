@@ -68,6 +68,7 @@ aside h2 {
 
 h1 {
     color: darkblue;
+    padding-bottom: 5px;
     border-bottom: 2px solid darkblue;
 }
 
