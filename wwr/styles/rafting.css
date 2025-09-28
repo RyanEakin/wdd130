@@ -129,7 +129,6 @@ figure figcaption {
 .image-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* Three columns */
-    grid-template-rows: 1; /* Rows will adjust based on content */
     gap: 16px; /* Space between grid items */
     max-width: 840px; /* Set a max width for the grid */
     margin: 0 auto; /* Centers the grid on the page */
