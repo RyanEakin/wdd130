@@ -15,6 +15,10 @@
 }
 
 header {
+    display:grid;
+    grid-template-areas: "Web-page-Image" "menu-links";
+    grid-template-columns: 2fr 4fr;
+    align-items: center;
     background-color: var(--primary-color);
     color: var(--accent2-color);
 }
@@ -31,6 +35,10 @@ body {
 header , main, footer {
     width: 840px;
     margin: 0 auto;
+}
+
+footer p {
+    bottom: 900px;
 }
 
 h1, h2 {
@@ -52,11 +60,13 @@ h1{
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+
 }
 
 article {
     position: absolute;
     top: 180px;
+    left: -15px;
     width:100%;
     padding: 0px;
     text-align: center;
@@ -64,7 +74,87 @@ article {
     color: var(--accent2-color);
 }
 
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+figure img{
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    width: auto;
+    float: left;
+}
+figure figcaption {
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
 /*Class Selectors*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    ". header ."
+    "sidebar-l main sidebar-r"
+    ". . .";
+
+}
+
+.header {
+  grid-area: header;
+  justify-self: center;
+}
+
+.main {
+  grid-area: main;
+  height: 200px;
+  width: auto;
+}
+
+.sidebar-l {
+  grid-area: sidebar-l;
+}
+
+.sidebar-r {
+  grid-area: sidebar-r;
+}
+
+
+/*for History Section*/
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Three columns */
+    grid-template-rows: 1; /* Rows will adjust based on content */
+    gap: 16px; /* Space between grid items */
+    max-width: 840px; /* Set a max width for the grid */
+    margin: 0 auto; /* Centers the grid on the page */
+}
+
+figure {
+    display: flex;
+    flex-direction: column; /* Stacks image and caption vertically */
+    align-items: center; /* Centers items horizontally */
+    text-align: center; /* Centers caption text */
+}
+
+figure img {
+    width: auto; /* Makes the image responsive */
+    height: 100px; /* Maintains aspect ratio */
+}
+
+figcaption {
+    margin-top: 8px; /* Adds space between the image and caption */
+    font-size: 0.9em; /* Adjusts font size for the caption */
+    color: var(--accent1-color); /* Sets a color for the caption text */
+}
+
+
+/*END History Section*/
 
 .socialmedia a {
     text-decoration: none;
@@ -72,9 +162,22 @@ article {
 .socialmedia img {
     float: right;
     padding:16px;
-    max-width: 50px;
+    max-width: 60px;
     max-height: fit-content;
     background-color: rgb(10,10,10);
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--primary-color);
+    text-decoration-color: var(--accent2-color);
+}
+
+.nav-link a {
+    background-color: var(--primary-color);
+    text-decoration-color: var(--accent2-color);
+    text-decoration: none;
 }
 
 .hero {
@@ -87,7 +190,14 @@ article {
     height: auto;
 }
 
+.hero article p {
+    background-color: var(--primary-color);
+    text-decoration-color: var(--accent2-color);
+}
+
 .hero article img {
     float: right;
     width: 125px;
+
 }
+
