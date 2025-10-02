@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: black;
+    background-color: grey;
+}
+
+main {
+    display: grid;
+    align-self: center;
+    justify-content: center;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    display:grid;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color: antiquewhite;
+    background: rgb(0, 60, 255);
+    justify-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+form {
+    width: 950px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    background-color: whitesmoke;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+}
+
+legend {
+    padding:5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: antiquewhite;
+    background: black;
+}
+
+label {
+    text-align: left;
+    padding-left: 20px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.1rem;
+    width: 880px;
+}
+
+textarea {
+    resize: none;
+}
+
+
+button {
+    margin: 1rem;
+    background-color: rgb(9, 186, 245);
+    color: black;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 850px;
+    text-align: center;
+    font-size: 10px;
+    color:white;
+    border-top: 1px solid white;
+}
