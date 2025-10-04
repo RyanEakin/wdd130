@@ -91,6 +91,75 @@ figure figcaption {
     align-items: flex-end;
 }
 
+fieldset {
+    float: right;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: 40px;
+    background-color: grey;
+    display: grid;
+}
+fieldset label {
+    width: 400px;
+    background-color: grey;
+    color: black;
+}
+
+textarea {
+    color: whitesmoke;
+    resize: none;
+}
+
+#top_input {
+    width: 320px;
+    height: 40px;
+    float: right;
+}
+
+#msg_purpose {
+    width: 80px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    align-items: baseline;
+}
+
+#radio_label-1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 110px;
+    margin-left: 80px;
+    width:180px;
+
+}
+
+#radio_label-2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 140px;
+    margin-left: 80px;
+    width:180px;
+
+}
+
+#radio_label-3 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 170px;
+    margin-left: 80px;
+    width:180px;
+}
+
+button {
+    color:#d19705;
+    background-color: black;
+}
+
 /*Class Selectors*/
 
 .grid-container {
@@ -200,3 +269,23 @@ figcaption {
 
 }
 
+.contact_info {
+    display: grid;
+    width:840px;
+}
+
+
+.contact_info p {
+    display: flex;
+    position: relative;
+    margin: 2px;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_info h1{
+    width:840px;
+    position: relative;
+    top: 0px;
+}
