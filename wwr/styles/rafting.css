@@ -162,6 +162,15 @@ button {
 
 /*Class Selectors*/
 
+#center-div {
+    display: flex;
+    margin-top: 20px;
+    width: 840px;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -174,16 +183,17 @@ button {
 }
 
 .contact_employee {
-    margin-top: 450px;
-    display: flex;
-    flex-direction: row; /* Stacks image and caption vertically */
-    align-items: center; /* Centers items horizontally */
-    text-align: center; /* Centers caption text */
+    display: grid;
+    grid-template-columns: repeat(7, 7fr); /* five columns */
+    gap: 8px; /* Space between grid items */
+    max-width: 840px; /* Set a max width for the grid */
+    margin: 0 auto; /* Centers the grid on the page */
+    /
 }
 
 .contact_employee img{
-    width: 125px;
-    height:auto;
+    width: auto; /* Makes the image responsive */
+    height: 80px; /* Maintains aspect ratio */
 }
 
 .header {
@@ -210,7 +220,7 @@ button {
 
 .image-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* five columns */
+    grid-template-columns: repeat(7, 7fr); /* five columns */
     gap: 16px; /* Space between grid items */
     max-width: 840px; /* Set a max width for the grid */
     margin: 0 auto; /* Centers the grid on the page */
