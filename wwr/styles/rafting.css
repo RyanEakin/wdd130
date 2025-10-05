@@ -113,7 +113,7 @@ textarea {
     resize: none;
 }
 
-#top_input {
+.top_input {
     width: 320px;
     height: 40px;
     float: right;
@@ -171,6 +171,19 @@ button {
     "sidebar-l main sidebar-r"
     ". . .";
 
+}
+
+.contact_employee {
+    margin-top: 450px;
+    display: flex;
+    flex-direction: row; /* Stacks image and caption vertically */
+    align-items: center; /* Centers items horizontally */
+    text-align: center; /* Centers caption text */
+}
+
+.contact_employee img{
+    width: 125px;
+    height:auto;
 }
 
 .header {
