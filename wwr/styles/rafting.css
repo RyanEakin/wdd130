@@ -1,8 +1,8 @@
 :root {
     --primary-color: #d19705;
     --secondary-color: rgb(206, 206, 206);
-    --accent1-color: rgb(192, 10, 192);
-    --accent2-color: green;
+    --accent1-color: rgb(207, 45, 207);
+    --accent2-color: black;
     --heading-font: "Times New Roman";
     --body-font: Arial;
 }
@@ -21,6 +21,10 @@ header {
     align-items: center;
     background-color: var(--primary-color);
     color: var(--accent2-color);
+}
+
+nav a {
+    color: black;
 }
 
 header img {
