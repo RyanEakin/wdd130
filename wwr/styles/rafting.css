@@ -181,6 +181,9 @@ button {
     ". . .";
 
 }
+.map{
+    border:0;
+}
 
 .contact_employee {
     display: grid;
