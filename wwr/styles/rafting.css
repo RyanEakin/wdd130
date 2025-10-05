@@ -188,7 +188,6 @@ button {
     gap: 8px; /* Space between grid items */
     max-width: 840px; /* Set a max width for the grid */
     margin: 0 auto; /* Centers the grid on the page */
-    /
 }
 
 .contact_employee img{
