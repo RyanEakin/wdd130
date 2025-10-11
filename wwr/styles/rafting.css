@@ -90,6 +90,9 @@ figure img{
     width: auto;
     float: left;
 }
+
+
+
 figure figcaption {
     justify-content: space-around;
     align-items: flex-end;
@@ -164,6 +167,25 @@ button {
     background-color: black;
 }
 
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f8ff9a;
+    color: #b61ab6;
+}
+
+td {
+    background-color: #fff674;
+}
+
 /*Class Selectors*/
 
 #center-div {
@@ -219,6 +241,20 @@ button {
 
 .sidebar-r {
   grid-area: sidebar-r;
+}
+
+
+.image-trips-container {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); /* two columns */
+    gap: 16px; /* Space between grid items */
+    max-width: 840px; /* Set a max width for the grid */
+    margin: 0 auto; /* Centers the grid on the page */
+}
+
+.image-trips-container img, .image-trips-container p {
+    height: 250px;
+    width: auto;
 }
 
 
@@ -311,6 +347,13 @@ figcaption {
     padding: 1px;
     align-items: center;
     justify-content: center;
+}
+
+.contact_link {
+    margin-left: 5px;
+    text-align: center;
+    text-decoration: none;
+    color:#b61ab6
 }
 
 .contact_info h1{
