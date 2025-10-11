@@ -307,6 +307,7 @@ td {
 
 .text-form form{
     display:grid;
+    float: left;
 }
 
 
