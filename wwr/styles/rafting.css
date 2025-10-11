@@ -98,32 +98,23 @@ figure figcaption {
     align-items: flex-end;
 }
 
-fieldset {
-    float: right;
-    width: 300px;
-    height: 400px;
-    margin: 0 auto;
-    padding: 1rem;
-    border: 1px solid #000;
-    border-radius: 40px;
-    background-color: grey;
-    display: grid;
-}
-fieldset label {
-    width: 400px;
-    background-color: grey;
-    color: black;
-}
+
 
 textarea {
     color: whitesmoke;
     resize: none;
 }
 
+.index_list li {
+    margin: 5px;;
+}
+
+
 .top_input {
     width: 320px;
     height: 40px;
     float: right;
+    color: whitesmoke;
 }
 
 #msg_purpose {
@@ -162,10 +153,7 @@ textarea {
     width:180px;
 }
 
-button {
-    color:#d19705;
-    background-color: black;
-}
+
 
 table {
     width: 50%;
@@ -187,6 +175,29 @@ td {
 }
 
 /*Class Selectors*/
+
+.fieldset-contact button {
+    color:#d19705;
+    background-color: black;
+}
+
+.fieldset-contact {
+    float: right;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: 40px;
+    background-color: grey;
+    display: grid;
+}
+
+.fieldset-contact label {
+    width: 400px;
+    background-color: grey;
+    color: black;
+}
 
 #center-div {
     display: flex;
@@ -257,6 +268,52 @@ td {
     width: auto;
 }
 
+
+.fieldset-index {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: 40px;
+    background-color: grey;
+    display: grid;
+    justify-content: end;
+    align-items: end;
+}
+
+.fieldset-index label {
+    width: 400px;
+    background-color: grey;
+    color: black;
+}
+
+.fieldset-index button {
+    color:#d19705;
+    background-color: black;
+}
+
+.text-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* two columns */
+    max-width: 840px; /* Set a max width for the grid */
+    margin: 0 auto; /* Centers the grid on the page */
+}
+
+.text-form p {
+    display:grid;
+}
+
+.text-form form{
+    display:grid;
+}
+
+
+.text-form a{
+    display:grid;
+    font-size: large;
+}
 
 /*for History Section*/
 
